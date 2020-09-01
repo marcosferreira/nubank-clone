@@ -12,7 +12,7 @@ export default function Header() {
         <Logo source={NubankLogo} resizeMode="contain" />
         <Title>Marcos</Title>
       </Top>
-      <MaterialIcons name="keyboard-arrow-down" size={20} color="white" />
+      <MaterialIcons name="keyboard-arrow-down" size={20} color="#FFF" />
     </Container>
   );
 }
