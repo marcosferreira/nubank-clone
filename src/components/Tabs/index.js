@@ -11,6 +11,22 @@ export default function Tabs() {
           <MaterialIcons name="person-add" size={24} color="#FFF" />
           <TabText>Indicar amigos</TabText>
         </TabItem>
+        <TabItem>
+          <MaterialIcons name="chat-bubble-outline" size={24} color="#FFF" />
+          <TabText>Cobrar</TabText>
+        </TabItem>
+        <TabItem>
+          <MaterialIcons name="arrow-downward" size={24} color="#FFF" />
+          <TabText>Depositar</TabText>
+        </TabItem>
+        <TabItem>
+          <MaterialIcons name="arrow-upward" size={24} color="#FFF" />
+          <TabText>Transferir</TabText>
+        </TabItem>
+        <TabItem>
+          <MaterialIcons name="lock" size={24} color="#FFF" />
+          <TabText>Bloquear Cartão</TabText>
+        </TabItem>
       </TabsContainer>
     </Container>
   );
