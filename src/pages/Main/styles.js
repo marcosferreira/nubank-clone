@@ -19,6 +19,9 @@ export const Card = styled.View`
   margin: 0 20px;
   height: 100%;
   position: absolute;
+  left: 0;
+  right: 0;
+  top: 300px;
 `;
 
 export const CardHeader = styled.View`

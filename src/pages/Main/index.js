@@ -4,6 +4,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 import Header from '../../components/Header';
 import Tabs from '../../components/Tabs';
+import Menu from '../../components/Menu';
 
 import { Container, Content, Card, CardHeader, CardContent, Title, Description, CardFooter, Annotation } from './styles';
 
@@ -13,6 +14,8 @@ export default function Main() {
       <Header />
 
       <Content>
+        <Menu />
+
         <Card>
           <CardHeader>
             <MaterialIcons name="attach-money" size={28} color="#666" />
