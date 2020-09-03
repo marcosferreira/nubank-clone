@@ -3,9 +3,15 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 import { Container, TabsContainer, TabItem, TabText } from './styles';
 
-export default function Tabs() {
+export default function Tabs({ translateY }) {
   return (
-    <Container>
+    <Container style={{
+      opacity: translateY.interpolate({
+        inputRange: [0, 150],
+        outputRange: [1, 0],
+        extrapolate: 'clamp',
+      })
+    }}>
       <TabsContainer>
         <TabItem>
           <MaterialIcons name="person-add" size={24} color="#FFF" />
